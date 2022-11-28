@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+*,*::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    color: #F9FAF8;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,figure,blockquote {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}

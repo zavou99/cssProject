@@ -1,0 +1,81 @@
+.main {
+
+}
+.cards-info {
+    padding: 50px 0 120px;
+}
+.cards-info .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+.cards-info_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    gap: 0 50px;
+}
+.cards-info_item article figure {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.cards-info_item article p {
+    color: #1F2937;
+    text-align: center;
+}
+
+
+.direct-speech-sec {
+    background-color: #E5E7EB;
+    padding: 170px 0;
+}
+.direct-speech-sec blockquote {
+    position: relative;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+.direct-speech-sec blockquote .author{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    color: #1F2937;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.sign-up-sec {
+    padding: 120px 160px;
+}
+.call-to-action {
+    border-radius: 6px;
+    background-color: #3882F6;
+    padding: 40px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.call-to-action_text .title {
+    font-size: 24px;
+}
+.call-to-action .btn {
+    border: 2px solid #E5E7EB;
+    background: transparent;
+    border-radius: 6px;
+    color: inherit;
+    padding: 8px 38px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
